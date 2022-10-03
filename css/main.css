@@ -1,8 +1,60 @@
-
-p{
-    color: sandybrown;
+body {
+  font-family: "General Sans", sans-serif;
+  font-size: 0.9rem;
 }
 
-h2{
-    color: red;
+p {
+  color: sandybrown;
+}
+
+h2 {
+  color: red;
+}
+
+.main-wrapper {
+  margin-top: 5rem;
+  border: 1px solid black;
+  box-shadow: 0px 10px 10px #888888;
+  padding: 10px;
+  width: fit-content;
+  margin-inline: auto;
+}
+
+.credentials_wrapper td input {
+  padding: 2px;
+  font-size: 1.1rem;
+  font-family: "General Sans", sans-serif;
+  border: 1px solid black;
+}
+
+.credentials_wrapper td input:focus {
+  border: 2px solid black;
+  outline: none;
+}
+
+.credentials_wrapper {
+  border-collapse: separate;
+  border-spacing: 0px 15px;
+}
+
+.create-cta {
+  background-color: black;
+  color: white;
+  border: 1px solid black;
+  padding: 4px;
+  font-size: 0.9rem;
+  font-weight: bold;
+  font-family: "General Sans", sans-serif;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 900px) {
+  body {
+    font-size: 0.7rem;
+  }
+
+  .main-wrapper {
+    margin-top: 1rem;
+  }
 }
